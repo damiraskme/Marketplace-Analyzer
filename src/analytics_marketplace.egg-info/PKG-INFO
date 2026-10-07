@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: analytics-marketplace
+Version: 0.1.0
+Requires-Python: >=3.12
+Requires-Dist: aiogram
+Requires-Dist: confluent-kafka
+Requires-Dist: cryptography
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: jinja2
+Requires-Dist: oracledb
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: python-multipart
+Requires-Dist: redis
+Requires-Dist: uvicorn[standard]
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

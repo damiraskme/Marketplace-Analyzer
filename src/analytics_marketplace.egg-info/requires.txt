@@ -1,0 +1,15 @@
+aiogram
+confluent-kafka
+cryptography
+fastapi
+httpx
+jinja2
+oracledb
+pydantic
+pydantic-settings
+python-multipart
+redis
+uvicorn[standard]
+
+[dev]
+pytest
